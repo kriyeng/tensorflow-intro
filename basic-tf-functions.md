@@ -1,4 +1,4 @@
-# Introduction to TensoFLow
+# Introduction to TensoFlow
 ## Basic Tensorflow Functions
 The following doc recaps the basic functions to deploy a simple Neural Network using `TensorFlow` and `keras` on `python`. Steps to code a full simple NN.
 
