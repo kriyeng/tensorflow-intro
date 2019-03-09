@@ -2,6 +2,17 @@
 ## Basic Tensorflow Functions
 The following doc recaps the basic functions to deploy a simple Neural Network using `TensorFlow` and `keras` on `python`. Steps to code a full simple NN.
 
+### The Steps
+The following are the necessary steps for a basic Neural Network.
+* Imports
+* Load Datasets
+* Normalization
+* Model definition
+* Learning process definition
+* Training model
+* Evaluation the model
+* Predict
+
 #### The imports
 Define the tools you will use:
 * **TensorFlow framework** - `tensorflow`
