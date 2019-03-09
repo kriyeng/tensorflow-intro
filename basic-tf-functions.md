@@ -43,7 +43,7 @@ test_images = test_images / 255.0
 #### Model Definition
 Define the Neural Network composition. Layers, units, activation functions.
 * **Model Definition** - `models.Sequential()`
-* **Learnin Process Definition** - `model.compile()`
+* **Learning Process Definition** - `model.compile()`
 
 ```python
 # model definition
