@@ -42,8 +42,8 @@ test_images = test_images / 255.0
 
 #### Model Definition
 Define the Neural Network composition. Layers, units, activation functions.
-* **Model Definition** - `models.Sequential`
-* **Learnin Process Definition** - `model.compile`
+* **Model Definition** - `models.Sequential()`
+* **Learnin Process Definition** - `model.compile()`
 
 ```python
 # model definition
@@ -57,7 +57,7 @@ model.compile(optimizer = tf.train.AdamOptimizer(),
 ```
 
 #### Training
-* **Process the training** - `model.fit`
+* **Process the training** - `model.fit()`
 
 ```python
 # Train the model
@@ -65,5 +65,24 @@ model.compile(optimizer = tf.train.AdamOptimizer(),
 model.fit(training_images, training_labels, epochs=40)
 ```
 
+#### Evaluate
+* **Evaluate test data** - `model.evaluate()`
+
+```python
+model.evaluate(test_images, test_labels)
+```
+
+#### Predict. Use the Neural Network
+
+* **Use the Neural Network** - `model.predict()`
+
+```python
+model.predict(sample[3]);
+```
+
+> **NOTES** - 
+* For simple data, increase the number of layers usually has no significant impact
+* For more complex data, like color images, adding more layers will be necessary
+* For simple data, adding neurons can usually have a good impact.
 
 
