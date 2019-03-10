@@ -24,8 +24,7 @@ Usage:
 tf.keras.layers.Conv2D(64, (3,3), activation='relu', input_shape=(28, 28, 1))
 ```
 
-> NOTES: 
-* Ouput dimensions: When we apply a Convulation to images, we can apply to every corner and edges of the images due to fact that edge pixels has no enough pixels in the neighbourhood to apply the entire box. For instance, we can't apply a 3x3 filter on the pixel (0,0). We need to start applying on the (1,1), loosing 1 pixel on the top, bottom and sides of the image. Is for this reason that an Convulation input shape of (28, 28) will output a shape of (26, 26). Exists some tricks to add fake pixels on edges to allow us starting for the pixel (0, 0) 
+> SHAPES: When we apply a Convulation to images, we can apply to every corner and edges of the images due to fact that edge pixels has no enough pixels in the neighbourhood to apply the entire box. For instance, we can't apply a 3x3 filter on the pixel (0,0). We need to start applying on the (1,1), loosing 1 pixel on the top, bottom and sides of the image. Is for this reason that an Convulation input shape of (28, 28) will output a shape of (26, 26). Exists some tricks to add fake pixels on edges to allow us starting for the pixel (0, 0) 
 
 
 #### Pooling
@@ -37,6 +36,8 @@ Usage:
 ```python
 tf.keras.layers.MaxPooling(2, 2)
 ```
+
+> SHAPES: The resulting shape after appling some `pooling` can be calculated based on the shape of the pool and the input shape. `output_shape = input_shape / pool_shape`
 
 #### Model Summary
 When you have defined your Neural Network you can print all the details with `keras` using `model.summary()`
