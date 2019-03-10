@@ -1,6 +1,6 @@
 # Introduction to TensorFlow
 ## Convulational Nerual Networks
-CNN is a techinque we apply to our basic Neural Netowrks in order to improvetha analysis of our data. We try to detect features in a better way and we also try to reduce our data to improve the speed of our algorithms.
+CNN is a techinque we apply to our basic Neural Netowrks in order to improve the analysis of our data. We try to detect features in a better way and we also try to reduce our data to improve the speed of our algorithms.
 
 ### Concepts
 #### Convulation
