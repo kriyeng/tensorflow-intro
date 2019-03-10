@@ -41,7 +41,7 @@ tf.keras.layers.MaxPooling(2, 2)
 #### Model Summary
 When you have defined your Neural Network you can print all the details with `keras` using `model.summary()`
 
-_________________________________________________________________
+`_________________________________________________________________
 Layer (type)                 Output Shape              Param nums   
 =================================================================
 conv2d_3 (Conv2D)            (None, 26, 26, 32)        320       
@@ -57,4 +57,4 @@ dense_7 (Dense)              (None, 10)                2570
 Total params: 1,387,594
 Trainable params: 1,387,594
 Non-trainable params: 0
-_________________________________________________________________
+_________________________________________________________________`
