@@ -41,8 +41,8 @@ tf.keras.layers.MaxPooling(2, 2)
 #### Model Summary
 When you have defined your Neural Network you can print all the details with `keras` using `model.summary()`
 
->_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+_________________________________________________________________
+Layer (type)                 Output Shape              Param nums   
 =================================================================
 conv2d_3 (Conv2D)            (None, 26, 26, 32)        320       
 _________________________________________________________________
